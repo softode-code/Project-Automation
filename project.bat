@@ -18,5 +18,6 @@ if "%1" == "-p" (
         cd "%2"
         git init
         code .
+        D:\AndroidSDK\Android\Sdk\emulator\emulator -avd Pixel_2_API_29
     )
 )
