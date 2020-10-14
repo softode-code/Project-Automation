@@ -14,10 +14,9 @@ if "%1" == "-p" (
         cd /
         d:
         cd Softode\Flutter
-        flutter create "%2"
+        flutter create --org com.softode "%2"
         cd "%2"
         git init
         code .
-        D:\AndroidSDK\Android\Sdk\emulator\emulator -avd Pixel_2_API_29
     )
 )
